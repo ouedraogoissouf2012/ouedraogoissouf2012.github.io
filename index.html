@@ -31,7 +31,7 @@
         }
 
         .container {
-            max-width: 1100px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
         }
@@ -237,13 +237,13 @@
         }
 
         .project-image {
-            height: 200px;
+            height: 180px;
             background: linear-gradient(135deg, var(--primary), var(--secondary));
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
-            font-size: 4rem;
+            font-size: 3.5rem;
         }
 
         .project-content {
@@ -291,6 +291,15 @@
 
         .project-links a:hover {
             text-decoration: underline;
+        }
+
+        .badge-new {
+            background: #ef4444;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            margin-left: 8px;
         }
 
         /* Contact Section */
@@ -410,7 +419,7 @@
             <div class="hero-content">
                 <div>
                     <h1>Issouf OUEDRAOGO</h1>
-                    <p class="subtitle">Développeur Full-Stack | Java/Spring Boot | Vue.js | Flutter</p>
+                    <p class="subtitle">Développeur Full-Stack | Java/Spring Boot | Vue.js | Flutter | Python</p>
                     <p style="margin-bottom: 1.5rem; opacity: 0.9;">
                         +3 ans d'expérience dans le développement d'applications web et mobiles.
                         Basé à Abidjan, Côte d'Ivoire 🇨🇮
@@ -427,7 +436,7 @@
                             <p>Années d'expérience</p>
                         </div>
                         <div class="stat">
-                            <h3>10+</h3>
+                            <h3>15+</h3>
                             <p>Projets réalisés</p>
                         </div>
                         <div class="stat">
@@ -454,6 +463,11 @@
                     <p>APIs REST, Microservices, JPA/Hibernate, Spring Security</p>
                 </div>
                 <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python / FastAPI</h3>
+                    <p>APIs async, SQLAlchemy, IA/DeepSeek, Automatisation</p>
+                </div>
+                <div class="skill-card">
                     <i class="fab fa-vuejs"></i>
                     <h3>Vue.js / Angular</h3>
                     <p>SPA, Composants réactifs, Vuex/NgRx, TypeScript</p>
@@ -466,17 +480,12 @@
                 <div class="skill-card">
                     <i class="fab fa-whatsapp"></i>
                     <h3>Intégration WhatsApp</h3>
-                    <p>Bots, Notifications automatiques, APIs de messagerie</p>
+                    <p>Bots IA, Commerce automation, APIs Baileys</p>
                 </div>
                 <div class="skill-card">
                     <i class="fas fa-database"></i>
                     <h3>Base de données</h3>
-                    <p>MySQL, PostgreSQL, MongoDB, Firebase</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-server"></i>
-                    <h3>DevOps</h3>
-                    <p>Git, Docker, CI/CD, Déploiement cPanel</p>
+                    <p>MySQL, PostgreSQL, SQLite, Firebase</p>
                 </div>
             </div>
         </div>
@@ -487,6 +496,48 @@
         <div class="container">
             <h2 class="section-title">Projets Récents</h2>
             <div class="projects-grid">
+                
+                <!-- KALGA -->
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f59e0b, #d97706);">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>KALGA <span class="badge-new">NEW</span></h3>
+                        <p>Plateforme WhatsApp Commerce avec IA. Les marchands postent via Status, le bot IA négocie automatiquement avec les clients.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">DeepSeek AI</span>
+                            <span class="tag">Node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ouedraogoissouf2012/kalga" target="_blank"><i class="fab fa-github"></i> Code (Privé)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kartier -->
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #8b5cf6, #7c3aed);">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Kartier <span class="badge-new">NEW</span></h3>
+                        <p>Marketplace de services de proximité. Met en relation habitants et prestataires locaux (plombiers, électriciens, etc.).</p>
+                        <div class="project-tags">
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">Angular</span>
+                            <span class="tag">Flutter</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ouedraogoissouf2012/kartier-backend" target="_blank"><i class="fab fa-github"></i> Backend</a>
+                            <a href="https://github.com/ouedraogoissouf2012/kartier-mobile" target="_blank"><i class="fab fa-github"></i> Mobile</a>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- LMS KLASSCI -->
                 <div class="project-card">
                     <div class="project-image">
@@ -508,6 +559,45 @@
                     </div>
                 </div>
 
+                <!-- KLASSCI College -->
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #06b6d4, #0891b2);">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>KLASSCI College</h3>
+                        <p>Système de gestion scolaire multi-tenant développé avec African Digital Consulting. Architecture async moderne.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">SQLAlchemy</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/African-DC/klassci-college-backend" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- monCv -->
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #ec4899, #db2777);">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>monCv</h3>
+                        <p>Application mobile Flutter pour créer des CV professionnels. Interface intuitive et export PDF.</p>
+                        <div class="project-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Dart</span>
+                            <span class="tag">PDF Export</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ouedraogoissouf2012/monCv" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Wourri -->
                 <div class="project-card">
                     <div class="project-image" style="background: linear-gradient(135deg, #10b981, #059669);">
@@ -515,7 +605,7 @@
                     </div>
                     <div class="project-content">
                         <h3>Wourri - AgriTech</h3>
-                        <p>Solution agricole avec notifications WhatsApp automatisées pour les agriculteurs. Alertes météo, prix du marché, conseils.</p>
+                        <p>Solution agricole avec notifications WhatsApp automatisées pour les agriculteurs ivoiriens. Alertes météo et conseils.</p>
                         <div class="project-tags">
                             <span class="tag">Node.js</span>
                             <span class="tag">WhatsApp API</span>
@@ -529,12 +619,12 @@
 
                 <!-- API Messager -->
                 <div class="project-card">
-                    <div class="project-image" style="background: linear-gradient(135deg, #8b5cf6, #7c3aed);">
+                    <div class="project-image" style="background: linear-gradient(135deg, #3b82f6, #2563eb);">
                         <i class="fas fa-comments"></i>
                     </div>
                     <div class="project-content">
                         <h3>API WhatsApp Messager</h3>
-                        <p>API REST pour l'envoi automatisé de messages WhatsApp. Idéal pour les notifications, rappels et communication client.</p>
+                        <p>API REST pour l'envoi automatisé de messages WhatsApp. Idéal pour les notifications et communication client.</p>
                         <div class="project-tags">
                             <span class="tag">Java</span>
                             <span class="tag">Spring Boot</span>
@@ -545,6 +635,25 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- projet_auto -->
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #64748b, #475569);">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Projet Auto</h3>
+                        <p>Application de vente de véhicules en ligne avec catalogue, filtres avancés et gestion des annonces.</p>
+                        <div class="project-tags">
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">Node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ouedraogoissouf2012/projet_auto" target="_blank"><i class="fab fa-github"></i> Code (Privé)</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -563,7 +672,7 @@
                 </div>
                 <div class="contact-item">
                     <i class="fas fa-envelope"></i>
-                    <span>ouedraogoissouf2012@gmail.com</span>
+                    <span>ouedraogoissouf@gmail.com</span>
                 </div>
             </div>
             <div class="social-links">
