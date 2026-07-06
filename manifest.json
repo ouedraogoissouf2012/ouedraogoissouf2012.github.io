@@ -1,11 +1,11 @@
 {
-    "name": "portfolio_flutter",
-    "short_name": "portfolio_flutter",
+    "name": "Issouf OUEDRAOGO - Portfolio",
+    "short_name": "Issouf",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#08111D",
+    "theme_color": "#35F2A7",
+    "description": "Portfolio de Issouf OUEDRAOGO, développeur full-stack.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
